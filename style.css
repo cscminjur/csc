@@ -1,0 +1,690 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffd700;
+}
+
+header {
+    background: #0e7da8;
+    color: #ffd700;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tagline {
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 40px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffd700;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #000;
+    color: #ffd700;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #000;
+    color: #ffd700;
+}
+.header {
+    background: #ffd700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #00008b;
+    font-weight: bold;
+}
+
+.about-founder {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    background: #fff3c4;
+}
+
+.founder-photo img {
+    width: 180px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.founder-text h2 {
+    margin-top: 0;
+    color: #000;
+}
+
+.founder-text p {
+    line-height: 1.6;
+}
+.courses-section {
+    background: #ffd700;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.courses-section h2 {
+    margin-bottom: 30px;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap; /* auto align for mobile */
+}
+
+.course-card {
+    background: #ffdb00;
+    width: 260px;
+    padding: 25px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card h3 {
+    margin-top: 0;
+}
+
+.course-card ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+    background: #ffcc00;
+    cursor: pointer;
+}
+.staff-section {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.staff-card {
+    width: 200px;
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.staff-card:hover {
+    transform: translateY(-8px);
+}
+
+.staff-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.staff-card h3 {
+    margin: 12px 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.staff-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+}
+
+.staff-card span {
+    display: block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #222;
+}
+.reviews-section {
+    padding: 50px 20px;
+    background: #fff3c4;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.review-card {
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+}
+
+.review-text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.review-card h4 {
+    margin: 15px 0 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.review-card span {
+    font-size: 16px;
+}
+.auth-buttons {
+    display: inline-flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+.achievements-section {
+    background: #fff3c4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.achievement-card {
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+    text-align: left;
+}
+
+.achievement-card:hover {
+    transform: translateY(-8px);
+}
+
+.achievement-card h3 {
+    margin-top: 0;
+    color: #0000cc;
+    font-size: 16px;
+}
+
+.achievement-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+.projects-simple {
+    background: #fff;
+    padding: 50px 80px;
+}
+
+.projects-simple h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.project-item h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #0000cc;
+}
+
+.project-item p {
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #222;
+}
+.queries-box {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff3c4;
+    border-left: 6px solid #ffd700;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 1.7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.queries-box h3 {
+    margin-top: 0;
+    color: #0000cc;
+    font-size: 18px;
+}
+.pdf-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.pdf-section h3 {
+    font-size: 18px;
+    color: #0000cc;
+    margin-bottom: 10px;
+}
+
+.pdf-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #ffcc00;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #0000cc;
+    transition: 0.3s;
+}
+
+.pdf-btn:hover {
+    background: white;
+    color: #0000cc;
+    transform: scale(1.05);
+}
+
+/* ============================= */
+/* MOBILE RESPONSIVE FIX */
+/* ============================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Map Responsive */
+.map {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Mobile View Fix */
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .nav a {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        background: #f2f2f2;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    /* About Founder */
+    .about-founder {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .founder-photo img {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .founder-text {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Courses */
+    .courses-container {
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .course-card {
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    /* Staff */
+    .staff-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .staff-card {
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .staff-card img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    /* Gallery */
+    .section .staff-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .section .staff-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Reviews */
+    .reviews-container {
+        flex-direction: column;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .review-card {
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    /* Youtube Videos */
+    iframe {
+        width: 100% !important;
+        height: 220px !important;
+        border-radius: 12px;
+    }
+
+    /* Achievements */
+    .achievements-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .achievement-card {
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    /* Projects */
+    .projects-list {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .project-item {
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    /* Contact */
+    #contact {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #contact p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* ===========================
+   UPCOMING EVENTS SECTION
+=========================== */
+.events-section {
+    background: #fff8dc;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.events-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+/* container */
+.events-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* event card */
+.event-card {
+    width: 320px;
+    background: linear-gradient(135deg, #ffcc00, #ff8800);
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.25);
+    text-align: left;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 30px rgba(0,0,0,0.35);
+}
+
+/* NEW badge */
+.new-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* blinking effect */
+.blink {
+    animation: blinkEffect 1s infinite;
+}
+
+@keyframes blinkEffect {
+    0% { opacity: 1; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1; }
+}
+
+/* title */
+.event-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00008b;
+}
+
+/* description */
+.event-desc {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #111;
+}
+
+/* details */
+.event-details {
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+/* button */
+.event-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 16px;
+    background: #0000cc;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.event-btn:hover {
+    background: white;
+    color: #0000cc;
+    border: 2px solid #0000cc;
+}
+@media (max-width: 768px) {
+    .event-card {
+        width: 90%;
+        max-width: 350px;
+    }
+}
