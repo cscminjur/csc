@@ -688,3 +688,32 @@ body {
         max-width: 350px;
     }
 }
+.new-icon{
+    height:60px;
+    margin-left:5px;
+    vertical-align:middle;
+}
+.video-section{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.video-section h2{
+    font-size:28px;
+    margin-bottom:30px;
+}
+
+.video-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.video-box{
+    width:280px;
+    height:500px;
+    border-radius:15px;
+    object-fit:cover;
+    box-shadow:0px 5px 20px rgba(0,0,0,0.2);
+}
